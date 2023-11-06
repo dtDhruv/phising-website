@@ -8,7 +8,7 @@ This is a demonstration of reverse shell using netcat which happens when the tar
 - The target must be using Linux distro which has netcat installed on it.
 
 ## Usage
-1. Run: npm install in terminal at the file location.
+1. Run: ```npm install``` in terminal at the file location.
 2. Start the node Server.
 3. Now, you can make the port public.
 4. Open funny.desktop and replace {private_ip_address} with the attacker's private ip address.

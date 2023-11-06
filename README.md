@@ -8,6 +8,9 @@ This is a demonstration of reverse shell using netcat which happens when the tar
 - The target must be using Linux distro which has netcat installed on it.
 
 ## Usage
-1. Open funny.desktop and replace {private_ip_address} with the attacker's private ip address.
-2. Open terminal and run: ```sudo nc -lnvp 87``` Netcat will start listning at port 87.
-3. Then run a python server to monitor all requests: ```sudo python3 -m http.server 80```
+1. Run: npm install in terminal at the file location.
+2. Start the node Server.
+3. Now, you can make the port public.
+4. Open funny.desktop and replace {private_ip_address} with the attacker's private ip address.
+5. Open terminal and run: ```sudo nc -lnvp 87``` Netcat will start listning at port 87.
+6. Then run a python server to monitor all requests: ```sudo python3 -m http.server 80```

